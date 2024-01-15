@@ -14,8 +14,8 @@ namespace AutoAssignment.Source.Pages
 	public class CheckOutInfoPage:Driver
 	{
 
-		[FindsBy(How = How.XPath, Using = "//span[contains(text(),'Checkout: Your Information')]")]
-		private IWebElement myCheckoutInformation;
+	[FindsBy(How = How.XPath, Using = "//span[contains(text(),'Checkout: Your Information')]")]
+	private IWebElement myCheckoutInformation;
 
 
         [FindsBy(How = How.Id, Using = "first-name")]
